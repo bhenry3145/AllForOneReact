@@ -26,7 +26,7 @@ const SayHelloComponent = () => {
     return (
         <>
         <div className='flex justify-center'>
-            <h1>Hello World</h1>
+            <h1 className='p-2 text-3xl'>Hello World</h1>
         </div>
         
         <div className="grid grid-cols-1 grid-rows-4 min-h-screen mr-8 ml-8 md:mb-16 md:ml-16 md:mr-16 overflow-hidden bg-black md:grid-cols-[2fr_1fr] md:grid-rows-2 rounded-3xl">

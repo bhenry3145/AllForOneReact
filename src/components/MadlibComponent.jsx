@@ -34,7 +34,7 @@ const MadlibComponent = () => {
     return (
         <>
         <div className='flex justify-center'>
-            <h1>Madlib</h1>
+            <h1 className='p-2 text-3xl'>Madlib</h1>
         </div>
         
         <div className="grid min-h-screen grid-cols-1 grid-rows-2 ml-8 mr-8 overflow-hidden bg-black md:mb-16 md:ml-16 md:mr-16 rounded-3xl">
@@ -57,7 +57,7 @@ const MadlibComponent = () => {
                     <input onChange={(event) => setUserInput2(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Adjective" type="text"/>
                     <input onChange={(event) => setUserInput3(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Animal" type="text"/>
                     <input onChange={(event) => setUserInput4(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Adverb" type="text"/>
-                    <input onChange={(event) => setUserInput5(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Verb (present tense)" type="text"/>
+                    <input onChange={(event) => setUserInput5(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-2xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Verb (present tense)" type="text"/>
                     <input onChange={(event) => setUserInput6(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Name" type="text"/>
                     <input onChange={(event) => setUserInput7(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Amount" type="text"/>
                     <input onChange={(event) => setUserInput8(event.target.value)} className="h-16 p-2 text-xl bg-white lg:h-32 md:text-3xl place-items-center w-fit md:w-[16rem] rounded-3xl" placeholder="Item (plural)" type="text"/>

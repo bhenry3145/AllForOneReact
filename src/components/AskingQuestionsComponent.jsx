@@ -25,7 +25,7 @@ const AskingQuestions = () => {
     return (
         <>
         <div className='flex justify-center'>
-            <h1>Asking Questions</h1>
+            <h1 className='p-2 text-3xl'>Asking Questions</h1>
         </div>
         
         <div className="grid min-h-screen grid-cols-1 grid-rows-4 ml-8 mr-8 overflow-hidden bg-black md:mb-16 md:ml-16 md:mr-16 rounded-3xl">

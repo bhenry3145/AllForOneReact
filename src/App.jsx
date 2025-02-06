@@ -7,7 +7,7 @@ function App() {
     <>
 
     <div className='flex justify-center'>
-      <h1>All For One</h1>
+      <h1 className='p-2 text-xl md:text-3xl'>All For One by Bowen Henry</h1>
     </div>
     <div className="grid min-h-screen mx-16 mb-16 overflow-hidden bg-black md:grid-cols-2 md:grid-rows-5 lg:grid-cols-5 lg:grid-rows-2 place-items-center rounded-3xl">
       

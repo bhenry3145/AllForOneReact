@@ -16,4 +16,4 @@ Peer Review
 Responsiveness (mobile, tablet, desktop)
 YOU MUST HAVE DATA VALIDATION COMPLETED
 
-Peer Review:
+Peer Review: Kassandra Spacek: Everything functions well. The validation on Greater than Less than is not returning just a string. The layout of your home buttons are a bit strange, I often found myself accidentally clicking the home button insead of the enter button.

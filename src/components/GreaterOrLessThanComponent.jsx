@@ -8,6 +8,7 @@ const GreaterOrLessThan = () => {
     const [display, setDisplay] = useState('');
 
     const fetchResponse = async () => {
+        
         if(userInput == "" || userInput2 == "")
         {
             setDisplay("Enter your first number in box 1 and second number in box 2 and then press Enter");
